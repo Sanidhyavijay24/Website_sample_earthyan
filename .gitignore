@@ -1,0 +1,47 @@
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules/
+jspm_packages/
+web_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# IDE / Editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build Output
+dist/
+dist-ssr/
+
+# Local Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Agent/IDE Configurations
+.gemini/
+.agents/
+.tempmediaStorage/
+*task-*.log
+*task-*.log.lock
+
+# Figma Design assets
+.figma/
+
+# Local Documents
+Earthyan_Website_Audit.docx
+Earthyan_Redesign_Build_Plan.md
