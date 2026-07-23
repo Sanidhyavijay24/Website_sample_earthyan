@@ -54,3 +54,5 @@ bun run build
 ```
 The output will be generated inside the `dist/` directory.
 
+
+Made by Sanidhya
