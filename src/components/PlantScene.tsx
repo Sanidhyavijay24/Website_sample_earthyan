@@ -116,12 +116,12 @@ function LotusModel({
 
   useFrame(() => {
     for (const mat of materials) mat.opacity = opacityRef.current
-    if (groupRef.current) groupRef.current.rotation.y = 0.15 + yawRef.current
+    if (groupRef.current) groupRef.current.rotation.y = -1.5 + yawRef.current
   })
 
   // X-pitch 0.3 / Z-roll 0 stay fixed — only yaw (Y) moves per-shot.
   return (
-    <group ref={groupRef} rotation={[0.3, 0.15, 0]}>
+    <group ref={groupRef} rotation={[0.3, -1.5, 0]}>
       <primitive object={scene} scale={[7, 7, 7]} />
     </group>
   )
